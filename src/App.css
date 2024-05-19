@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 500px;
+  margin: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+input {
+  padding: 10px;
+  font-size: 1.6rem;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1.4rem;
+  margin: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}

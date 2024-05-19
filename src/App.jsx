@@ -1,5 +1,11 @@
-export default function App(){
-  return(
-    <div>Projeto iniciado</div>
-  )
+import Snapshot from "./components/Snapshot";
+import "./App.css";
+import Context from "./context/context.jsx";
+
+export default function App() {
+  return (
+    <Context>
+      <Snapshot />
+    </Context>
+  );
 }
